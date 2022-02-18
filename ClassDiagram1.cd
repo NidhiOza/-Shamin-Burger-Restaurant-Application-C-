@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shamim.Program">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.BasicHamburguer">
+    <Position X="3.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAABAQAAAAAAAAEAAAAAhAAIBwAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BasicHamburguer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.DeluxeHamburguer">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeluxeHamburguer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.HealthyHamburguer">
+    <Position X="3.25" Y="6.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEAAAAAgAAwAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealthyHamburguer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.Addition">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Addition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Shamim.BasicPizza">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAQAAACAAAAEAAAAAgAAIBwAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BasicPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.HamburguerFactory">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HamburguerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shamim.PizzaFactory">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Shamim.IHamburguerBuilder" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HamburguerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IBasicHamburguerBuilder">
+    <Position X="8" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>BasicHamburguerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IDeluxeHamburguerBuilder">
+    <Position X="10.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>DeluxeHamburguerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IHealthyHamburguerBuilder">
+    <Position X="13" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>HealthyHamburguerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IVegetarianPizzaBuilder">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>VegetarianPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IHawaianPizzaBuilder">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>HawaianPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shamim.IPizzaBuilder" Collapsed="true">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaFactory.cs</FileName>
+      <NewMemberFileName>IPizzaBuilder.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Shamim.HamburguerType">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>HamburguerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Shamim.PizzaType">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>PizzaType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
